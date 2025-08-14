@@ -1,12 +1,19 @@
-# ET Test Project
+# ET Calculator Project
 
-A Python project with Flask backend and simple frontend.
+A Python project with Flask backend and simple frontend for performing calculations.
 
 ## Project Structure
 - `src/api/`: Flask backend code
 - `src/frontend/`: Frontend HTML/JS files
 - `tests/`: Test files
 - `requirements.txt`: Project dependencies
+
+## Features
+- Multi-number addition
+- Dynamic input fields
+- Real-time error handling
+- Calculation history
+- Responsive design
 
 ## Setup
 1. Create virtual environment: `python3 -m venv venv`
@@ -18,16 +25,16 @@ A Python project with Flask backend and simple frontend.
    ```
    python src/api/app.py
    ```
-   The backend will run on http://localhost:5000
+   The backend will run on http://localhost:5002
 
 2. Open the frontend:
    - Open `src/frontend/index.html` in a web browser
    - Or use Python's built-in HTTP server:
      ```
      cd src/frontend
-     python -m http.server 8000
+     python -m http.server 8090
      ```
-     Then visit http://localhost:8000
+     Then visit http://localhost:8090
 
 ## Running Tests
 Run tests using: `pytest -v`
